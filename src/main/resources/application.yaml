@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: server
+  application:
+    name: country
+
+server:
+  port: 8085

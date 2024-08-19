@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    hostname: 89.104.68.220
+  client:
+    service-url:
+      defaultZone: http://89.104.68.220:8761/eureka
+
+app:
+  feignClient:
+    url: "http://89.104.68.220:8080/api/v1"

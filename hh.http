@@ -1,0 +1,2 @@
+GET https://api.hh.ru/areas
+User-Agent: api-test-agent
