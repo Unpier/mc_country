@@ -1,9 +1,0 @@
-FROM openjdk:17
-
-COPY /target/*.jar country/app.jar
-
-COPY /geo/cities.json /country/geo/cities.json
-
-ENTRYPOINT ["java", "-jar", "/country/app.jar"]
-
-EXPOSE 8085

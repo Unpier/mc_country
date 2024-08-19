@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    image: '1e1784acd4bdede05065a1bf6ac6e474016969544dcd9875c74f47bbd1cc5d6d'
+    container_name: mc_country
+    ports:
+      - '8085:8085'
+    environment:
+      - DB_USERNAME=postgres
+      - DB_PASS=Psql7355
+      - DB_URL=jdbc:postgresql://psql:5432/mc_country
+    depends_on:
+      - psql
+    volumes:
+      - ./src/main/resources:/app/resources
+
+  psql:
+    container_name: psql
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=mc_country
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Psql7355
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./psql/data:/var/lib/postgresql/data

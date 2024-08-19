@@ -1,0 +1,107 @@
+GET https://api.hh.ru/areas
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=6bWQ81Vh0YqKMknaaQkt
+content-length: 0
+
+<> 2024-05-13T150117.200.json
+
+###
+
+GET https://api.hh.ru/areas
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-13T150049.200.json
+
+###
+
+GET https://api.hh.ru/areas
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-06T142634.200.json
+
+###
+
+GET https://api.hh.ru/areas
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=p0iasuafW9XNuMSPYLvZ
+content-length: 0
+
+<> 2024-04-17T180355.200.json
+
+###
+
+GET https://api.hh.ru/areas
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=p0iasuafW9XNuMSPYLvZ
+content-length: 0
+
+<> 2024-04-17T143038.200.json
+
+###
+
+GET https://api.hh.ru/areas/2
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=p0iasuafW9XNuMSPYLvZ
+content-length: 0
+
+<> 2024-04-17T142950.200.json
+
+###
+
+GET https://api.hh.ru/areas/1
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=p0iasuafW9XNuMSPYLvZ
+content-length: 0
+
+<> 2024-04-17T142928.200.json
+
+###
+
+GET https://api.hh.ru/areas/countries
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=p0iasuafW9XNuMSPYLvZ
+content-length: 0
+
+<> 2024-04-17T141158.200.json
+
+###
+
+GET https://api.hh.ru/areas/countries
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: __ddg1_=p0iasuafW9XNuMSPYLvZ
+content-length: 0
+
+<> 2024-04-17T140054.200.json
+
+###
+
+GET https://api.hh.ru/vacancies
+User-Agent: api-test-agent
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-17T135927.200.json
+
+###
+
